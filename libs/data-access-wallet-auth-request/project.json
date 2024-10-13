@@ -1,0 +1,9 @@
+{
+  "name": "data-access-wallet-auth-request",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/data-access-wallet-auth-request/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project data-access-wallet-auth-request --web",
+  "targets": {}
+}

@@ -1,0 +1,9 @@
+{
+  "name": "data-access-signature-verifier",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/data-access-signature-verifier/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project data-access-signature-verifier --web",
+  "targets": {}
+}

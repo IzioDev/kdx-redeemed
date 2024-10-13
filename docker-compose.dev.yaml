@@ -1,0 +1,26 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    ports:
+      - ${POSTGRES_PORT}:5432
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_DB=${POSTGRES_DB}
+  redis:
+    image: 'bitnami/redis:7.4.1'
+    volumes:
+      - cache_data:/bitnami/redis/data
+    environment:
+      - REDIS_PORT=${REDIS_PORT}
+      - REDIS_TLS_ENABLED=${REDIS_TLS}
+      - REDIS_PASSWORD=${REDIS_PASSWORD}
+      - REDIS_DATABASE=${REDIS_DATABASE}
+    ports:
+      - ${REDIS_PORT}:6379
+
+volumes:
+  db_data:
+  cache_data:
