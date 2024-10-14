@@ -18,7 +18,6 @@
       "@kdx-redeemed/backend-auth": ["libs/backend-auth/src/index.ts"],
       "@kdx-redeemed/client-auth": ["libs/client-auth/src/index.ts"],
       "@kdx-redeemed/client-kasware": ["libs/client-kasware/src/index.ts"],
-      "@kdx-redeemed/shared-core": ["libs/shared/core/src/index.ts"],
       "@kdx-redeemed/data-access-signature-verifier": [
         "libs/data-access-signature-verifier/src/index.ts"
       ],
@@ -31,7 +30,8 @@
       "@kdx-redeemed/kaspa-wasm": ["libs/kaspa-wasm/src/index.ts"],
       "@kdx-redeemed/prisma-client": ["libs/prisma-client/src/index.ts"],
       "@kdx-redeemed/prisma-schema": ["libs/prisma-schema/src/index.ts"],
-      "@kdx-redeemed/redis-client": ["libs/redis-client/src/index.ts"]
+      "@kdx-redeemed/redis-client": ["libs/redis-client/src/index.ts"],
+      "@kdx-redeemed/shared-core": ["libs/shared/core/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -3,6 +3,8 @@
 resolver = '2'
 members = [
 	'apps/signature_verifier',
+	'apps/kaspa_playground',
+	'libs/libs_rust_krc_20_parser',
 ]
 
 [profile.release]

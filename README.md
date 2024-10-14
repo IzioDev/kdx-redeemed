@@ -1,7 +1,11 @@
+proposal name by Rilragos: XDK
+
 todo:
 
 - documentation on how to start the apps
 - implement rate limit on sensitive endpoints: 'nonce' and 'login' requests for now
+- reintroduce nonce on the login step so signed message are only usable once per intiated flow
+  - nonce should comes from frontend to avoid an un-necessary handshake prior clicking the connexion button
 
 requirements:
 
